@@ -15,11 +15,13 @@ struct ControlPanelView: View {
     VStack {
       Spacer()
       VStack {
-        Button("Hidden Immersive Space") {
+        Button {
           viewModel.immersiveSpaceIsShown = false
           Task {
             await dismissImmersiveSpace()
           }
+        } label: {
+          Label("Exit Immersive Space", systemImage: "arrow.down.right.and.arrow.up.left")
         }
         .padding(EdgeInsets(top: 30, leading: 0, bottom: 30, trailing: 0))
       }
