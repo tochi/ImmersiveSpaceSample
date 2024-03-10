@@ -24,21 +24,25 @@ struct ImmersiveSpaceSampleApp: App {
 //        }
 //        .opacity(viewModel.immersiveSpaceIsShown ? 0 : 1)
         
-        TabView {
-          ContentView(title: "Hello world !")
-            .environment(viewModel)
-            .tabItem {
-              Label("English", systemImage: "list.bullet")
-            }
-          ContentView(title: "こんにちは世界！")
-            .environment(viewModel)
-            .tabItem {
-              Label("Japan", systemImage: "list.bullet")
-            }
-        }
-        .frame(width: 1280)
-        .glassBackgroundEffect(in: .rect(cornerRadius: 40))
-        .opacity(viewModel.immersiveSpaceIsShown ? 0 : 1)
+        SegmantedView()
+          .environment(viewModel)
+          .opacity(viewModel.immersiveSpaceIsShown ? 0 : 1)
+        
+//        TabView {
+//          ContentView(title: "Hello world !")
+//            .environment(viewModel)
+//            .tabItem {
+//              Label("English", systemImage: "list.bullet")
+//            }
+//          ContentView(title: "こんにちは世界！")
+//            .environment(viewModel)
+//            .tabItem {
+//              Label("Japan", systemImage: "list.bullet")
+//            }
+//        }
+//        .frame(width: 1280)
+//        .glassBackgroundEffect(in: .rect(cornerRadius: 40))
+//        .opacity(viewModel.immersiveSpaceIsShown ? 0 : 1)
 
       }
       .animation(.default, value: viewModel.immersiveSpaceIsShown)
