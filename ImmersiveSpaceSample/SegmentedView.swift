@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct SegmantedView: View {
+struct SegmentedView: View {
   let viewTitles = ["Home", "Favorite"]
   @State var selectionIndex = 0
 
@@ -29,5 +29,5 @@ struct SegmantedView: View {
 }
 
 #Preview {
-  SegmantedView()
+  SegmentedView()
 }

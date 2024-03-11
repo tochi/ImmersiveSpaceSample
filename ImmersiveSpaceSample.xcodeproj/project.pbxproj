@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D90837EA2B9DF53B00B9E6EB /* SegmantedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90837E92B9DF53B00B9E6EB /* SegmantedView.swift */; };
+		D90837EA2B9DF53B00B9E6EB /* SegmentedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90837E92B9DF53B00B9E6EB /* SegmentedView.swift */; };
 		D96B873F2B9756FA00BBA4D2 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = D96B873E2B9756FA00BBA4D2 /* RealityKitContent */; };
 		D96B87412B9756FA00BBA4D2 /* ImmersiveSpaceSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96B87402B9756FA00BBA4D2 /* ImmersiveSpaceSampleApp.swift */; };
 		D96B87432B9756FA00BBA4D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96B87422B9756FA00BBA4D2 /* ContentView.swift */; };
@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D90837E92B9DF53B00B9E6EB /* SegmantedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmantedView.swift; sourceTree = "<group>"; };
+		D90837E92B9DF53B00B9E6EB /* SegmentedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedView.swift; sourceTree = "<group>"; };
 		D96B87392B9756FA00BBA4D2 /* ImmersiveSpaceSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImmersiveSpaceSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D96B873D2B9756FA00BBA4D2 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		D96B87402B9756FA00BBA4D2 /* ImmersiveSpaceSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveSpaceSampleApp.swift; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 				D96B87482B9756FB00BBA4D2 /* Assets.xcassets */,
 				D96B874D2B9756FB00BBA4D2 /* Info.plist */,
 				D96B874A2B9756FB00BBA4D2 /* Preview Content */,
-				D90837E92B9DF53B00B9E6EB /* SegmantedView.swift */,
+				D90837E92B9DF53B00B9E6EB /* SegmentedView.swift */,
 			);
 			path = ImmersiveSpaceSample;
 			sourceTree = "<group>";
@@ -173,7 +173,7 @@
 				D96B87432B9756FA00BBA4D2 /* ContentView.swift in Sources */,
 				D96B87412B9756FA00BBA4D2 /* ImmersiveSpaceSampleApp.swift in Sources */,
 				D96B87542B9758C400BBA4D2 /* ViewModel.swift in Sources */,
-				D90837EA2B9DF53B00B9E6EB /* SegmantedView.swift in Sources */,
+				D90837EA2B9DF53B00B9E6EB /* SegmentedView.swift in Sources */,
 				D96B87562B975A8400BBA4D2 /* ControlPanelView.swift in Sources */,
 				D96B87452B9756FA00BBA4D2 /* ImmersiveView.swift in Sources */,
 			);

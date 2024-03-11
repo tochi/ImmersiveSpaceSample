@@ -24,7 +24,7 @@ struct ImmersiveSpaceSampleApp: App {
 //        }
 //        .opacity(viewModel.immersiveSpaceIsShown ? 0 : 1)
         
-        SegmantedView()
+        SegmentedView()
           .environment(viewModel)
           .opacity(viewModel.immersiveSpaceIsShown ? 0 : 1)
         
